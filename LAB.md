@@ -7,12 +7,12 @@
 ## Steps
 
 ### HTML
-1. Create an HTML file (index.html)
+1. Create an HTML file (`index.html`)
 1. Add content to your HTML file including all the required sections listed below
 1. **Commit** your code with a message of "added content"
 
 ### CSS Mobile
-1. Create and link a CSS file (styles.css)
+1. Create and link a CSS file (`styles.css`)
 1. Add CSS to styles.css to create a one column layout. Add any CSS you want to make the page look nice.
 1. **Commit** your code with a message of "added mobile styles"
 
