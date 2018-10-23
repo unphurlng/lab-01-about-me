@@ -16,33 +16,10 @@ img {
 }
 
 @media screen and (min-width: 700px) {
-    .sectionOne {
+    .sectionFloat {
         width: 50%;
         float: left;
         padding: 15px;
     }
-    
-    .sectionTwo {
-        width: 50%;
-        float: left;
-        padding: 15px;
-    }
-    
-    .sectionThree {
-        width: 50%;
-        float: left;
-        padding: 15px;
-    }
-    
-    .sectionFour {
-        width: 50%;
-        float: left;
-        padding: 15px;
-    }
-    
-    .sectionFive {
-        width: 50%;
-        float: left;
-        padding: 15px;
-    }   
+   
 }
