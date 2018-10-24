@@ -60,13 +60,14 @@
     <section class="sectionFloat">
         <h2>Quiziness:</h2>
         <form
-            id="about-me-form" 
+            id="about-me-form"
+            name="about-me-form" 
             onsubmit="event.preventDefault(); 
             checkAboutMe();" 
             onreset="resetAboutMe();"
         >
 
-        <div>
+            <div>
                 <label for="favColor">Favorite color:</label>
                 <input type="text" id="favColor" name="favColor" placeholder="Pick a ROYGBIV color">
             </div>
@@ -77,9 +78,9 @@
             </div>
 
             <div>
-                    <label for="favSchool">Favorite school:</label>
-                    <input type="text" id="favSchool" name="favSchool" placeholder="Three words">
-                </div>    
+                <label for="favSchool">Favorite school:</label>
+                <input type="text" id="favSchool" name="favSchool" placeholder="Three words">
+            </div>    
 
             <div>
                 <label for="grayHair">Age hair began turning gray:</label>
@@ -99,8 +100,9 @@
         </form>
 
         <p id="about-me-response"></p>
-
     </section>
 
+    <script src="guess-game-1.js"></script>
+    <script src="guess-game-2.js"></script>
 </body>
 </html>
