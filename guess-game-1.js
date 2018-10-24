@@ -23,12 +23,13 @@ function checkAboutMe() {
     var correct = 0;
 
     if(color.toLowerCase() === 'violet') {
-        console.log('YAY!');
+        console.log('test yes');
         aboutMeResponse.textContent = 'correct';
         correct = correct + 1;
         color.classList.add('YAY!');
         color.classList.remove('Nah, try again.');
     } else if(color !== '') {
+        console.log('test no')
         color.classList.add('Nah, try again.');
         color.classList.remove('YAY!');
     }
