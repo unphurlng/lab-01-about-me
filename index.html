@@ -105,32 +105,32 @@
 
     <section class="sectionFloat">
 
-        <form>
+        <form onsubmit="event.preventDefault()">
             
             <fieldset>
                 <legend>HTML Tag Counter:</legend>
 
-                <input name="tagName" type="checkbox" id="countHeader" value="countHeader">
+                <input name="tagName" type="checkbox" id="countHeader" value="header">
                 <label for="countHeader"># of header tags</label>
 
-                <input name="tagName" type="checkbox" id="countH1" value="countH1">
+                <input name="tagName" type="checkbox" id="countH1" value="h1">
                 <label for="countH1"># of h1 tags</label>
                 
-                <input name="tagName" type="checkbox" id="countH2" value="countH2">
+                <input name="tagName" type="checkbox" id="countH2" value="h2">
                 <label for="countH2"># of h2 tags</label>
 
-                <input name="tagName" type="checkbox" id="countSection" value="countSection">
+                <input name="tagName" type="checkbox" id="countSection" value="section">
                 <label for="countSection"># of section tags</label>
 
-                <input name="tagName" type="checkbox" id="countDiv" value="countDiv">
+                <input name="tagName" type="checkbox" id="countDiv" value="div">
                 <label for="countDiv"># of div tags</label>
             </fieldset>
 
             <fieldset>
-                <legend>Blah blah blah</legend>
+                <legend>How many?</legend>
 
                 <div>
-                    <button onclick="tryQuerySelector()">try query selector</button>
+                    <button onclick="countQuerySelector()">Push here</button>
                 </div>
                 
             </fieldset>
