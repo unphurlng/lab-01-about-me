@@ -1,3 +1,6 @@
+/* eslint no-console: "off" */
+/* exported TryQuerySelector */
+'use strict';
 
 var aboutMeForm = document.getElementById('about-me-form');
 var aboutMeResponse = document.getElementById('amount-me-response');
