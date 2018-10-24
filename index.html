@@ -100,16 +100,41 @@
         </form>
 
         <p id="about-me-response"></p>
+
     </section>
 
-    <section>
+    <section class="sectionFloat">
 
-        <form action="">
-            <p>
-            <label for="">
+        <form>
+            
+            <fieldset>
+                <legend>HTML Tag Counter:</legend>
 
-            </label>
-        </p>
+                <input name="tagName" type="checkbox" id="countHeader" value="countHeader">
+                <label for="countHeader"># of header tags</label>
+
+                <input name="tagName" type="checkbox" id="countH1" value="countH1">
+                <label for="countH1"># of h1 tags</label>
+                
+                <input name="tagName" type="checkbox" id="countH2" value="countH2">
+                <label for="countH2"># of h2 tags</label>
+
+                <input name="tagName" type="checkbox" id="countSection" value="countSection">
+                <label for="countSection"># of section tags</label>
+
+                <input name="tagName" type="checkbox" id="countDiv" value="countDiv">
+                <label for="countDiv"># of div tags</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Blah blah blah</legend>
+
+                <div>
+                    <button onclick="tryQuerySelector()">try query selector</button>
+                </div>
+                
+            </fieldset>
+
         </form>
 
     </section>
