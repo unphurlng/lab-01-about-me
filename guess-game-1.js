@@ -1,5 +1,5 @@
 /* eslint no-console: "off" */
-/* exported TryQuerySelector */
+/* exported TryQuerySelector, checkAboutMe */
 'use strict';
 
 var aboutMeForm = document.getElementById('about-me-form');
@@ -32,7 +32,7 @@ function checkAboutMe() {
         color.classList.add('YAY!');
         color.classList.remove('Nah, try again.');
     } else if(color !== '') {
-        console.log('test no')
+        console.log('test no');
         color.classList.add('Nah, try again.');
         color.classList.remove('YAY!');
     }

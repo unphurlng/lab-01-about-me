@@ -10,7 +10,7 @@ function countQuerySelector() {
         var elementIndex = countQuerySelector[i];
         var tags = (document.querySelectorAll(elementIndex.value));
         var tagCount = tags.length;
-        console.log();
+        console.log(tagCount);
     }
 
     
