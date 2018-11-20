@@ -12,7 +12,5 @@ function countQuerySelector() {
         var tagCount = tags.length;
         console.log(tagCount);
     }
-
-    
 }
 

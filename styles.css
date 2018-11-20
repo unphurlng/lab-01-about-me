@@ -15,48 +15,55 @@ img {
     padding: 15px;
 }
 
-@media screen and (min-width: 700px) {
-    .sectionFloat {
-        width: 50%;
-        float: left;
-        padding: 15px;
-    }
-   
+.correct {
+  background-color: darkseagreen;
+}
+
+.incorrect {
+  background-color: maroon;
+}
+
+.hidden {
+  display: none;
 }
 
 label {
-    font-weight: bold;
-    display: block;
+  font-weight: bold;
+  display: block;
 }
 
 form div {
-    padding: 10px 0;
+  padding: 10px 0;
+}
+
+form {
+  max-width: 400px;
+  background: lavender;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+button[type="submit"] {
+  background-color:rgb(97, 122, 97);
+  border-color: rgb(97, 122, 97);
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+button[type="reset"] {
+  background-color: rgb(124, 67, 67);
+  border-color: rgb(124, 67, 67);
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 700px) {
+  .sectionFloat {
+      width: 50%;
+      float: left;
+      padding: 15px;
   }
-  
-  form {
-    max-width: 400px;
-    background: lavender;
-    padding: 10px;
-    text-align: left;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  }
-  
-  button[type="submit"] {
-    color:olive;
-  }
-  
-  button[type="reset"] {
-    color: maroon;
-  }
-  
-  .correct {
-    background-color: lightgreen;
-  }
-  
-  .incorrect {
-    background-color: pink;
-  }
-  
-  .hidden {
-    display: none;
-  }
+}
